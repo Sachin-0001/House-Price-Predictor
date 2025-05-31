@@ -34,6 +34,9 @@ A machine learning model that predicts house prices in Bengaluru based on variou
    ```bash
    streamlit run app.py
    ```
+   ```bash
+   python -m streamlit run app.py
+   ```
 
 ## Dataset
 

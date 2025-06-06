@@ -11,7 +11,7 @@ scaler = joblib.load('scaler.pkl')  # Scaler for target variable (price)
 dataset = pd.read_csv('Bengaluru_House_Data.csv')
 
 # Set page configuration with a custom icon
-st.set_page_config(page_title="Bengaluru House Price Predictor", page_icon="🏠", layout="center")
+st.set_page_config(page_title="Bengaluru House Price Predictor", page_icon="🏠", layout="centered")
 
 # Custom CSS for styling
 st.markdown("""
